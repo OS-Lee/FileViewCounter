@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "file-view-counter-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/fileViewCounter/FileViewCounterWebPart.js",
+          "manifest": "./src/webparts/fileViewCounter/FileViewCounterWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "https://code.jquery.com/jquery-2.1.1.min.js",
+      "globalName": "jquery"
+    }
+  },
+  "localizedResources": {
+    "FileViewCounterWebPartStrings": "lib/webparts/fileViewCounter/loc/{locale}.js"
+  }
+}
