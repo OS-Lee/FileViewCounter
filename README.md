@@ -7,6 +7,8 @@ Sample result:
 
 https://1drv.ms/u/s!ArH29oxgtifigQ0-7kGOjPVV7Zte
 
+You may try to install the packaged webpart file-view-counter.sppkg to your tenant.
+
 If you have a large library, you need optimize the logic to paging/batch for better performance.
 
 ## Used SharePoint Framework Version
