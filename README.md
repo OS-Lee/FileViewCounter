@@ -9,19 +9,20 @@ https://1drv.ms/u/s!ArH29oxgtifigQ0-7kGOjPVV7Zte
 
 If you have large library, you need optimize the logic to paging/batch for better performance.
 
-###Used SharePoint Framework Version
+## Used SharePoint Framework Version
 1.8.2
 
-###Local testing
-Clone this repository
-In the command line run:
-npm install
-gulp serve
+### Local testing
 
-###Deploy
-gulp clean
-gulp bundle --ship
-gulp package-solution --ship
-Upload .sppkg file from sharepoint\solution to your tenant App Catalog
-E.g.: https://<tenant>.sharepoint.com/sites/AppCatalog/AppCatalog
-Add the web part to a site collection, and test it on a page
+- Clone this repository
+- In the command line run:
+  - `npm install`
+  - `gulp serve`
+
+### Deploy
+* gulp clean
+* gulp bundle --ship
+* gulp package-solution --ship
+* Upload .sppkg file from sharepoint\solution to your tenant App Catalog
+	* E.g.: https://&lt;tenant&gt;.sharepoint.com/sites/AppCatalog/AppCatalog
+* Add the web part to a site collection, and test it on a page
