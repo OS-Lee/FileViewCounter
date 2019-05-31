@@ -1,26 +1,18 @@
-## file-view-counter
+This is sample demo to get view count for files in a SharePoint document library.
 
-This is where you include your WebPart documentation.
+Used SharePoint Framework Version
+1.8.2
 
-### Building the code
+###Local testing
+Clone this repository
+In the command line run:
+npm install
+gulp serve
 
-```bash
-git clone the repo
-npm i
-npm i -g gulp
-gulp
-```
-
-This package produces the following:
-
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
-
-### Build options
-
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+###Deploy
+gulp clean
+gulp bundle --ship
+gulp package-solution --ship
+Upload .sppkg file from sharepoint\solution to your tenant App Catalog
+E.g.: https://<tenant>.sharepoint.com/sites/AppCatalog/AppCatalog
+Add the web part to a site collection, and test it on a page
