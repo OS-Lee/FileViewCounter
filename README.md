@@ -7,7 +7,7 @@ Sample result:
 
 https://1drv.ms/u/s!ArH29oxgtifigQ0-7kGOjPVV7Zte
 
-If you have large library, you need optimize the logic to paging/batch for better performance.
+If you have a large library, you need optimize the logic to paging/batch for better performance.
 
 ## Used SharePoint Framework Version
 1.8.2
