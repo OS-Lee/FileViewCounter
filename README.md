@@ -1,6 +1,15 @@
 This is sample demo to get view count for files in a SharePoint document library.
 
-Used SharePoint Framework Version
+The webpart depends on jQuery https://code.jquery.com/jquery-2.1.1.min.js and https://cdnjs.cloudflare.com/ajax/libs/jquery-treegrid/0.2.0/js/jquery.treegrid.min.js
+
+After you configured the webpart library property, refresh the page to check the result.
+Sample result:
+
+![alt text](https://1drv.ms/u/s!ArH29oxgtifigQ0-7kGOjPVV7Zte)
+
+If you have large library, you need optimize the logic to paging/batch for better performance.
+
+###Used SharePoint Framework Version
 1.8.2
 
 ###Local testing
