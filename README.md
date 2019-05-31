@@ -5,7 +5,7 @@ The webpart depends on jQuery https://code.jquery.com/jquery-2.1.1.min.js and ht
 After you configured the webpart library property, refresh the page to check the result.
 Sample result:
 
-https://1drv.ms/u/s!ArH29oxgtifigQ0-7kGOjPVV7Zte
+<img src="https://1drv.ms/u/s!ArH29oxgtifigQ0-7kGOjPVV7Zte" />
 
 If you have large library, you need optimize the logic to paging/batch for better performance.
 
